@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background: #9090ff !important;
+}
+
+.input-modify {
+    width: 100%;
+    font-size: 24px;
+    outline: 0;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: auto;
+    color: #0b39c3;
+    border: 1px solid #3bffb4e7;
+    padding: 12px 16px;
+    transition: all .3s linear;
+}
+
+.max-400 {
+    max-width: 400px;
+}
+
+p {
+    margin-bottom: 0 !important;
+    color: red;
+}
+
+::placeholder {
+    color: #0b39c3;
+}
+
+input[type=submit].input-modify:hover {
+    background: #97f03f;
+}
